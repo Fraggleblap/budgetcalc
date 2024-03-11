@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Budget Calculator</h1>
+    </header>
+    <main>
+        <section class="career">
+            <h2>Career</h2>
+            <select name="career" id="career">
+                <option value="custom">Custom</option>
+                <!-- <option value="accountant">
+                    Accountant
+                </option>
+                <option value="driver">
+                    Adv. Tractor/Trailer Driver
+                </option>
+                <option value="agEng">
+                    Agricultural Engineer
+                </option>
+                <option value="arc">
+                    Architect
+                </option>
+                <option value="carMechanic">
+                    Auto Tech/Mechanic
+                </option>
+                <option value="aviaMechanic">
+                    Aviation Tech/Mechanic
+                </option>
+                <option value="busDriver">
+                    Bus Driver
+                </option>
+                <option value="bioNerd">
+                    Biologist
+                </option>
+                <option value="NERRRRD">
+                    Business Dev. Officer
+                </option>
+                <option value="karensBane">
+                    Business Manager
+                </option>
+                <option value="CNCManufact">
+                    CNC Manufacturing
+                </option>
+                <option value="letHimCook">
+                    Chief
+                </option>
+                <option value="carpenter">
+                    Carpenter
+                </option>
+                <option value="evilScientist">
+                    Chemist Civil Eng.
+                </option>
+                <option value="citySkylinesPlayers">
+                    Civil Engineering Tech.
+                </option>
+                <option value="driverNo2">
+                    Commercial Driver
+                </option>
+                <option value="hitRebootAndPray">
+                    Computer Technician
+                </option>
+                <option value="prisionWorkerIThink">
+                    Correctional Officer
+                </option>
+                <option value="yourFineAlready">
+                    Cosmetologist
+                </option>
+                <option value="helloMrKrabs">
+                    Credit Union/Bank Mgr
+                </option>
+                <option value="lookAtClues">
+                    Detective
+                </option>
+                <option value='MOUTH'>
+                    Dentist
+                </option>
+                <option value="earplugsRequired">
+                    Daycare Director
+                </option>
+                <option value="Fuel">
+                    Diesel Tech/Mechanic
+                </option>
+                <option value="doctorphysician">
+                    Doctor/Physician
+                </option>
+                <option value="elektricity">
+                    Electrician
+                </option>
+                <option value="elecEngineer">
+                    Electronics Engineer
+                </option>
+                <option value="emergencyMoment">
+                    EMT
+                </option>
+                <option value="energyMgmt">
+                    Energy Management
+                </option>
+                <option value="engineer">
+                    Engineer
+                </option>
+                <option value="envSci">
+                    Enviromental Scientist
+                </option>
+                <option value="fashDesign">
+                    Fashion Designer
+                </option>
+                <option value="fireFighter">
+                    Fire Fighter
+                </option>
+                <option value="forensicPathologist">
+                    Forensic Pathologist
+                </option>
+                <option value="forestRanger">
+                    Forest Ranger
+                </option>
+                <option value="graphicDesignSpec">
+                    Graphic Design Spec.
+                </option>
+                <option value="H/CHVAC">
+                    H/C HVAC
+                </option>
+                <option value="highwayPatrol">
+                    Highway Patrol
+                </option>
+                <option value="homeInspector">
+                    Home Inspector
+                </option>
+                <option value="industrialMechanic">
+                    Industrial Mechanic
+                </option>
+                <option value="interiorDesigner">
+                    Interior Designer
+                </option>
+                <option value="investmentAnalyst">
+                    Investment Analyst
+                </option>
+                <option value="labTechnoician">
+                    Lab Technician
+                </option>
+                <option value="landscaper/horticulture">
+                    Landscaper/Horticulture
+                </option>
+                <option value="lawyer">
+                    Lawyer
+                </option>
+                <option value="marketing/salesMgr">
+                    Marketing/Sales Mgr
+                </option>
+                <option value="media/communications">
+                    Media/Communications
+                </option>
+                <option value="medicalRepairTech">
+                    Medical Repair Tech.
+                </option>
+                <option value="military">
+                    Military
+                </option>
+                <option value="nurse">
+                    Nurse
+                </option>
+                <option value="nutritionist">
+                    Nutritionist
+                </option>
+                <option value="oceanographer">
+                    Oceanographer
+                </option>
+                <option value="pastor">
+                    Pastor
+                </option>
+                <option value="PG&E\AT&TTech">
+                    PG&E\AT&T Tech.
+                </option>
+                <option value="pharmacist">
+                    Pharmacist
+                </option>
+                <option value="photographer">
+                    Photographer
+                </option>
+                <option value="physicalTherapist">
+                    Physical Therapist
+                </option>
+                <option value="pilot">
+                    Pilot (Commercial)
+                </option>
+                <option value="plumber">
+                    Plumber
+                </option>
+                <option value="policeofficer">
+                    Police Officer
+                </option>
+                <option value="principal">
+                    Principal
+                </option>
+                <option value="probationOfficer">
+                    Probation Officer
+                </option>
+                <option value="psychologist">
+                    Psychologist
+                </option>
+                <option value="retailsalesAssociate">
+                    Retail Sales Associate
+                </option>
+                <option value="socialWorker">
+                    Social Worker
+                </option>
+                <option value="solarEnegryTech">
+                    Solar Energy Tech.
+                </option>
+                <option value="speechPathlogist">
+                    Speech Pathologist
+                </option>
+                <option value="teacher">
+                    Teacher
+                </option>
+                <option value="ups/FedExDriver">
+                    UPS/Fed Ex Driver
+                </option>
+                <option value="veterinarian">
+                    Veterinarian
+                </option>
+                <option value="welder/metalSpec">
+                    Welder/Metal Spec.
+                </option>
+                <option value="windEnegryTech">
+                    Wind Energy Tech.
+                </option> -->
+            </select>
+        </section>
+        <div class="gross-calc-background">
+            <div class="gross-calc">
+                <section class="calculator">
+                    <section class="come">
+                        <label class="income" for="annualIncome">
+                            <h2>Income</h2>
+                        </label>
+                        <input type="number" name="annualIncome" id="incomeInput">
+                        <label class="income" for="monthlyIncome">
+                            Monthly Gross Income
+                        </label>
+                        <p name="monthlyIncome" id="monthlyIncome" value="0"></p>
+                    </section>
+                    <hr>
+                    <h2>Expenses</h2>
+                    <section class="expen">
+                        <section class="taxClass">
+                            <hr>
+                            <div>
+                                <label>Housing/Utilities</label>
+                                <input type="number" name="" id="util">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Transportation</label>
+                                <input type="number" name="" id="transport">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Loan Payments</label>
+                                <input type="number" name="" id="loan">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Living Expenses</label>
+                                <input type="number" name="" id="live">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Healthcare</label>
+                                <input type="number" name="" id="health">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Education</label>
+                                <input type="number" name="" id="ed">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Saving</label>
+                                <input type="number" name="" id="save">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Other Expenses</label>
+                                <input type="number" name="" id="other">
+                            </div>
+                            <hr>
+                            <div>
+                                <label>Federal Taxes</label>
+                                <p id="fedTax" value="0"></p>
+                            </div>
+                            <hr>
+                            <div>
+                                <label>State Taxes</label>
+                                <p id="stateTax" value="0"></p>
+                            </div>
+                        </section>
+                        <hr>
+                        <div id="endTotal">
+                            <p><strong>Amount Left:</strong> $0</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
